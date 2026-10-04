@@ -1,0 +1,46 @@
+CAMPO CONCEITUAL  =================================================================================
+
+Tabela TURMA em dado.db
+- id
+- cadeiras
+- horário (manhã/tarde/noite)
+- andar
+
+CLASSES DE DADOS  =================================================================================
+professor{
+    ID (ID)
+    nome
+    sobrenome
+    matéria
+    sala
+}
+aluno{ (Herança? Chama da classe professor e adicionar novos dados)
+    registro (ID)
+    nome
+    sobrenome
+    idade
+    serie
+    nota_final (média de 6 notas)
+    sala
+}
+LOCAL DE ARMAZENAMENTO ============================================================================
+Ideia de organizar os professores selecionados juntos dos alunos nas respectivas salas de aula,
+designando cada professor e aluno nelas.
+local sala_aula = {
+    1 = {},
+    2 = {},
+    3 = {},
+    4 = {}
+}
+MENU ==============================================================================================
+Para/Professor{
+    add
+    alterar
+    remover
+    alunos > Ver quais alunos o professor tem (ideia conceitual e opcional para o projeto final)
+}
+Para/Aluno{
+    add
+    alterar
+    remover
+}

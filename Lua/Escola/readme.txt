@@ -1,0 +1,1 @@
+Este projeto é voltado a um sistema simples de gerenciamento de professores e alunos de escola.
